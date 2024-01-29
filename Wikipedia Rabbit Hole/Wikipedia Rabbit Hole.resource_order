@@ -18,8 +18,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tempMovingObject","order":2,"path":"sprites/spr_tempMovingObject/spr_tempMovingObject.yy",},
+    {"name":"obj_mov_plat_hori","order":3,"path":"objects/obj_mov_plat_hori/obj_mov_plat_hori.yy",},
+    {"name":"spr_horiz","order":3,"path":"sprites/spr_horiz/spr_horiz.yy",},
     {"name":"obj_solid","order":1,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
+    {"name":"obj_mov_plat_vert","order":4,"path":"objects/obj_mov_plat_vert/obj_mov_plat_vert.yy",},
     {"name":"obj_movingObjectTemp","order":2,"path":"objects/obj_movingObjectTemp/obj_movingObjectTemp.yy",},
+    {"name":"spr_vert","order":4,"path":"sprites/spr_vert/spr_vert.yy",},
   ],
 }

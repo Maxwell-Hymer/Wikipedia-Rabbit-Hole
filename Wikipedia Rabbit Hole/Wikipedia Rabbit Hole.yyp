@@ -35,11 +35,15 @@
   },
   "resources": [
     {"id":{"name":"spr_tempMovingObject","path":"sprites/spr_tempMovingObject/spr_tempMovingObject.yy",},},
+    {"id":{"name":"obj_mov_plat_hori","path":"objects/obj_mov_plat_hori/obj_mov_plat_hori.yy",},},
     {"id":{"name":"spr_wabbit","path":"sprites/spr_wabbit/spr_wabbit.yy",},},
+    {"id":{"name":"spr_horiz","path":"sprites/spr_horiz/spr_horiz.yy",},},
     {"id":{"name":"obj_wabbit","path":"objects/obj_wabbit/obj_wabbit.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
+    {"id":{"name":"obj_mov_plat_vert","path":"objects/obj_mov_plat_vert/obj_mov_plat_vert.yy",},},
     {"id":{"name":"obj_movingObjectTemp","path":"objects/obj_movingObjectTemp/obj_movingObjectTemp.yy",},},
+    {"id":{"name":"spr_vert","path":"sprites/spr_vert/spr_vert.yy",},},
     {"id":{"name":"room_rabbitHole","path":"rooms/room_rabbitHole/room_rabbitHole.yy",},},
   ],
   "RoomOrderNodes": [
