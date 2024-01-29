@@ -23,7 +23,16 @@ else if (_left == true)
 }
 
 // gravity
-vsp += gravity;
+if (vsp < max_speed)
+{
+	vsp += grav;
+} else
+{
+	vsp = max_speed;
+}
+
+// apply the gravity to the player
+y += vsp
 
 // when you fall out the room, teleport to the top
 if (x < 0 || x > room_width || y < 0 || y > room_height)
@@ -31,7 +40,7 @@ if (x < 0 || x > room_width || y < 0 || y > room_height)
     // Teleport to the middle of the top of the room
     x = room_width / 2;
     y = 0;
-    
-    // Reset vertical speed
-    vsp = 0;
+	
+	// resets player gravity
+	vsp = 0;
 }
