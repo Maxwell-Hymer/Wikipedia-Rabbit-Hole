@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 // Horizontal Moving Platform
-var moveSpeed = 2; // Speed of the platform
-var leftLimit = 100; // Leftmost position
-var rightLimit = 300; // Rightmost position
+var moveSpeed = moving; // Speed of the platform
+var leftLimit = movexOne; // Leftmost position
+var rightLimit = movexTwo; // Rightmost position
 
 // Update platform position
 platform.x += dir * moveSpeed;

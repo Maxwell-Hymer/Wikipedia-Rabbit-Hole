@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Vertical Moving Platform
-var moveSpeed = 2; // Speed of the platform
-var bottomLimit = 100; // Lowest position
-var topLimit = 300; // Highest position
+// Vertical Moving moveY
+var moveSpeed = moving; // Speed of the moveY
+var bottomLimit = moveyOne; // Lowest position
+var topLimit = moveyTwo; // Highest position
 
-// Update platform position
+// Update moveY position
 platform.y += dir * moveSpeed;
 
 // Check for direction change
