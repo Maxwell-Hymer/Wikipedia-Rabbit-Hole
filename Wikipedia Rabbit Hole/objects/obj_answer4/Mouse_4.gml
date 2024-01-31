@@ -14,5 +14,6 @@ if(global.answer == 4)
 else
 {
 	gotWrong = 1;
+	global.Wrong = 1; 
 }
 

@@ -12,4 +12,5 @@ if(global.answer == 2)
 else
 {
 	gotWrong = 1;
+	global.Wrong = 1;
 }

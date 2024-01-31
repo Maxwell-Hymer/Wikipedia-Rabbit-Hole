@@ -13,6 +13,7 @@ if(global.answer == 1)
 else
 {
 	gotWrong = 1;
+	global.Wrong = 1;
 }
 
 

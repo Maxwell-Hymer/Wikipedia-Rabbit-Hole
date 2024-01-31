@@ -44,3 +44,10 @@ if (x < 0 || x > room_width || y < 0 || y > room_height)
 	// resets player gravity
 	vsp = 0;
 }
+
+if (global.Wrong == 1)
+{
+	 // Teleport to the middle of the top of the room
+    room_restart(); 
+	global.Wrong = 0;
+}
