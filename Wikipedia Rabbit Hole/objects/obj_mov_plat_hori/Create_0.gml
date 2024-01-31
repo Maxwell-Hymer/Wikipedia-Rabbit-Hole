@@ -3,7 +3,7 @@
 
 platform = self;
 
-moving = irandom(5);
+moving = irandom_range(1,5);
 
 movexOne = self.x - 100;
 movexTwo = self.x + 200;
